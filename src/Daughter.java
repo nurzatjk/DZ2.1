@@ -6,7 +6,10 @@ public  final class Daughter  extends Mothers {
         this.habits = habits;
     }
 
-
+    @Override
+    public void bodyType() {
+        System.out.println("");
+    }
 
     @Override
     public String getInfo() {
